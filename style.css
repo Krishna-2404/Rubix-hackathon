@@ -3,13 +3,13 @@
     padding: 0;
 }
 #webname img{
-    height: 100px;
-    width: 100px;
+    height: 159px;
+    width: 179px;
     padding: 4px 12px;
     margin: 1px 4px;
 }
 #webname p{
-    color: white;
+    color: black;
 }
 
 #webname{
@@ -23,7 +23,7 @@
 
 #webname::before{
     content:"";
-    background-color:  rgb(116, 18, 161);
+    background-color: #f8e3e3;
     position: absolute;
     z-index: -1;
     opacity: 0.5;
@@ -34,7 +34,6 @@
 #nav{
     position: relative;
 }
-
 
 #nav::before{
     content:"";
@@ -50,7 +49,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 #nav li{
     list-style: none;
@@ -76,15 +74,35 @@
     font-family: 'Bree Serif', serif;
     font-size: 2.5rem;
 }
+
 #motto{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+#motto img{
+    width: 400px;
+    height: 400px;
+}
+
+#motto::before{
+    content: "";
+    background-color: #c8a6cf;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 .motto{
-    background: url('img2.jpg') no-repeat center center/cover;
-    height: 430px;
+    /* background: url('img2.jpg') no-repeat center center/cover; */
+    height: 500px;
+    width: 500px;
     margin: 10px;
     border-radius: 30px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
     padding: 34px 34px;
     font-family: 'Bree Serif', serif;
@@ -118,7 +136,7 @@
     font-family: 'Bree Serif', serif;
 }
 
-#divtext3 button{
+#divtext3 button {
     background-color: black;
     color: white;
     padding: 4px 10px;
@@ -129,7 +147,11 @@
     cursor: pointer;
 }
 
-#divtext3 button:hover{
+#divtext3 a{
+    text-decoration: none;
+}
+
+#divtext3 a button:hover{
     background-color: wheat;
     color: black;
 }
@@ -139,28 +161,20 @@
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
-    
-    
-    carousel-item
-{
-    background-color: #6ceed0;
 
-
-}
-
- /* TESTIMONIAL SECTION  */
- #testimonials{
+/* TESTIMONIAL SECTION  */
+#testimonials{
     padding: 7% 15%;
     text-align: center;
-   background-color: #72b9ef;
-   color: #fff;
- }
- .testimonial-img{
+    background-color:#b28ed3;
+    color: #fff;
+}
+.testimonial-img{
 
     width: 10%;
     border-radius: 100%;
     margin: 20px;
- }
+}
 
 
 .carousel-item{
@@ -172,12 +186,12 @@
     
 }
 .btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    background: #b28ed3;
+    background-image: -webkit-linear-gradient(top, #b28ed3,#b28ed3);
+    background-image: -moz-linear-gradient(top, #b28ed3, #b28ed3);
+    background-image: -ms-linear-gradient(top, #b28ed3, #b28ed3);
+    background-image: -o-linear-gradient(top, #b28ed3, #b28ed3);
+    background-image: linear-gradient(to bottom,#b28ed3, #b28ed3);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 8px;
@@ -186,25 +200,16 @@
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+
+
+.btn:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-      text-decoration: none;}
-  
-      #information
-{
-  background-color: #e8cbf8;
- text-align: center;
-
+    text-decoration: none;
 }
-#cont
-{background-color: #fff;
-   font-style: sanserif;
-   padding: 0ch;}
-
