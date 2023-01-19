@@ -35,7 +35,7 @@
     position: relative;
 }
 
-#nav {
+
 #nav::before{
     content:"";
     background-color: rgb(51, 6, 72);
@@ -51,7 +51,7 @@
     justify-content: center;
 }
 
-li {
+
 #nav li{
     list-style: none;
 }
