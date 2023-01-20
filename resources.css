@@ -78,57 +78,83 @@
     font-size: 2.5rem;
 }
 
+.subhead1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
 
-.imgp{
+}
+
+.coun1{
     float: left;
     margin-left: 15px;
     margin-right: 10px;
+    width: 20%;
+    height: 20%;
 
 }
-.phone{
+.priya{
     float:left;
     margin-left: 5px;
     font-family: 'Bree Serif', serif;
-    font-size: 2rem;
-    margin-top: 40px;
+    font-size: 1.5rem;
+    margin-top: 0px;
 }
-/* .containter2{
-    background-color: #f8e3e3;
-    display: flex;
-} */
-.imge{
+.priya1{
+    float:left;
+    margin-left: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.coun2{
     float: right;
-
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
 }
-.email{
+.riya{
     float: right;
     font-family: 'Bree Serif', serif;
     font-size: 2rem;
     margin-left: 15px;
     margin-top: 50px;
 }
-#information{
-    background-color: #f8e3e3 ;
-    align-items: center;
-    margin-top: 150px;
-
-}
-.form1{
-    border: 1rem solid ;
-    border-color: rgb(191, 161, 221);
-    border-radius: 10px;
-    padding: 1rem;
-
-}
-label{
-    display: block;
-    width: 100%;
-}
-.button{
-    background: rgb(191, 161, 221);
-    padding: 0.5rem;
-    color: seashell;
+.riya1{
+    float: right;
+    margin-left: 5px;
     font-family: 'Bree Serif', serif;
-    
+    font-size: 1rem;
+    margin-top: 10px;
+}
 
+.subhead2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+
+}
+
+#news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    background-color:  #b28ed3;
+    border: mediumpurple;
+    border-radius: 15px;
+    margin: 30px;
+
+}
+.help1{
+    margin-right: 50px;
+}
+.help2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.help3{
+    margin-left: 50px;
 }
